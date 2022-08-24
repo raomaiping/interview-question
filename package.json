@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-copy-copyright": "^1.0.3",
+    "vuepress-plugin-copyright": "^1.0.2"
+  },
+  "dependencies": {}
+}
