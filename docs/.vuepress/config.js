@@ -16,6 +16,10 @@ module.exports = {
       //格式一：直接跳转，'/'为不添加路由，跳转至首页
       { text: '首页', link: '/' },
       {
+        text: '综合面试题',
+        link: '/comprehensive-interview-questions/vue2.md',
+      },
+      {
         text: '700道JS面试题',
         link: '/700-interview-questions/1-50.md',
       },
@@ -37,6 +41,13 @@ module.exports = {
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 2, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [['1-50.md', '1 ~ 50道']],
+        },
+      ],
+      '/comprehensive-interview-questions/': [
+        {
+          collapsable: false, // false为默认展开菜单, 默认值true是折叠,
+          sidebarDepth: 2, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+          children: [['vue2.md', 'Vue2']],
         },
       ],
     },
