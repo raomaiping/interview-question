@@ -47,7 +47,10 @@ module.exports = {
         {
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 2, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
-          children: [['vue2.md', 'Vue2']],
+          children: [
+            ['vue2.md', 'Vue2'],
+            ['vue3.md', 'Vue3'],
+          ],
         },
       ],
     },
