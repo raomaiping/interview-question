@@ -166,7 +166,7 @@ app.component(/* ... */)
 app.directive(/* ... */)
 ```
 ### emits 属性
-![emits 属性](/emits.png)
+![emits 属性](../.vuepress/public/emits.png)
 
 ### 生命周期
 [点我跳转到：描述Vue3生命周期](#lifecycle)
@@ -177,25 +177,25 @@ app.directive(/* ... */)
 <button @click="one($event), two($event)">Submit</button>
 ```
 ### Fragment
-![Fragment](/fragment.png)
+![Fragment](../.vuepress/public/fragment.png)
 
 ### 移除.sync
-![移除.sync](/sync.png)
+![移除.sync](../.vuepress/public/sync.png)
 
 ### 异步组件的写法
-![异步组件的写法](/async-components.png)
+![异步组件的写法](../.vuepress/public/async-components.png)
 
 ### 移除filter
-![移除filter](/filter.png)
+![移除filter](../.vuepress/public/filter.png)
 
 ### Teleport
-![Teleport](/teleport.png)
+![Teleport](../.vuepress/public/teleport.png)
 
 ### Suspense
-![Suspense](/suspense.png)
+![Suspense](../.vuepress/public/suspense.png)
 
 ### Composition API
-![Composition API](/composition-api.png)
+![Composition API](../.vuepress/public/composition-api.png)
 
 ## Composition API 如何实现逻辑复用？
 
@@ -204,8 +204,8 @@ app.directive(/* ... */)
 * 在setup中引用 useXxxx 函数
 
 ### 示例如下：
-![composition-api-1](/composition-api-1.png)
-![composition-api-2](/composition-api-2.png)
+![composition-api-1](../.vuepress/public/composition-api-1.png)
+![composition-api-2](../.vuepress/public/composition-api-2.png)
 
 ## Proxy 实现响应式
 * 深度监听，性能更好
@@ -277,11 +277,11 @@ app.directive(/* ... */)
 
 **父组件**
 
-![v-model1](/v-model1.png)
+![v-model1](../.vuepress/public/v-model1.png)
 
 **子组件**
 
-![v-model2](/v-model2.png)
+![v-model2](../.vuepress/public/v-model2.png)
 
 ## watch 和 watchEffect 的区别
 * 两者都可监听data属性变化
